@@ -8,7 +8,7 @@ M.setup = function()
     Normal = { fg = palette.fg, bg = palette.bg },
     Boolean = { fg = palette.olive },
     ColorColumn = { bg = palette.bg },
-    Comment = { fg = palette.gray },
+    Comment = { fg = palette.gray, italic = true },
     Constant = { fg = palette.orange },
     Cursor = { fg = palette.bg, bg = palette.fg },
     CursorColumn = { bg = palette.bg_dark },
