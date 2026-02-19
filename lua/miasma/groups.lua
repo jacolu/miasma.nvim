@@ -41,6 +41,7 @@ M.setup = function()
     DiffAdded = { fg = palette.green, bg = palette.bg_dark },
     DiffChange = { fg = palette.bg, bg = palette.brown },
     DiffDelete = { fg = palette.bg, bg = palette.orange, bold = true },
+    DiffLine = { fg = palette.gray },
     DiffRemoved = { fg = palette.orange, bg = palette.bg_dark },
     DiffText = { fg = palette.bg, bg = palette.gold, bold = true },
     Directory = { fg = palette.olive, bg = palette.bg_dark },
@@ -276,6 +277,8 @@ M.setup = function()
     DiagnosticFloatingWarn = { link = "DiagnosticWarn" },
     DiagnosticWarning = { fg = palette.orange },
     DiagnosticFloatingWarning = { link = "DiagnosticWarning" },
+
+    DiffSubName = { link = "DiffLine" },
 
     gitCommitFile = { link = "Directory" },
 
