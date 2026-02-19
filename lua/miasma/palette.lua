@@ -15,7 +15,6 @@ return {
   olive         = "#78824b",
   yellow        = "#fbec9f",
   gold          = "#c9a554",
-  tan           = "#d7c483",
   gray          = "#666666",
   gray_dark     = "#444444",
 }
