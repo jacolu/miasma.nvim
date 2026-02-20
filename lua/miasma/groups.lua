@@ -290,6 +290,10 @@ M.setup = function()
 
     CursorLineFold = { link = "FoldColumn" },
 
+    GitSignsAddNr = { link = "GitSignsAdd" },
+    GitSignsChangeNr = { link = "GitSignsChange" },
+    GitSignsDeleteNr = { link = "GitSignsDelete" },
+
     IblWhitespace = { link = "IblIndent" },
 
     NvimIdentifier = { link = "Identifier" },
