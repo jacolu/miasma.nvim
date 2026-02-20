@@ -8,6 +8,7 @@ M.setup = function()
     -- Standard
     Normal = { fg = palette.fg, bg = palette.bg },
     Boolean = { fg = palette.olive },
+    Changed = { fg = palette.brown },
     ColorColumn = { bg = palette.bg },
     Comment = { fg = palette.gray, italic = true },
     Constant = { fg = palette.orange },
@@ -53,7 +54,6 @@ M.setup = function()
     Folded = { fg = palette.orange, bg = palette.bg },
     Function = { fg = palette.olive },
     GitSignsAdd = { fg = palette.green, bg = palette.bg },
-    GitSignsChange = { fg = palette.brown, bg = palette.bg },
     GitSignsDelete = { fg = palette.red, bg = palette.bg },
     IblIndent = { fg = palette.black_green, nocombine = true },
     IblScope = { fg = palette.black_yellow, nocombine = true },
@@ -235,6 +235,10 @@ M.setup = function()
     NvimSpacing = { link = "Normal" },
     javaScript = { link = "Normal" },
     lessVariableValue = { link = "Normal" },
+
+    GitSignsChange = { link = "Changed" },
+    GitSignsStagedChange = { link = "Changed" },
+    GitSignsStagedChangeNr = { link = "Changed" },
 
     CtrlPLinePre = { link = "Comment" },
     LspCodeLens = { link = "Comment" },
