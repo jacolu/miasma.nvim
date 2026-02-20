@@ -4,6 +4,7 @@ local palette = require("miasma.palette")
 
 M.setup = function()
   return {
+
     -- Standard
     Normal = { fg = palette.fg, bg = palette.bg },
     Boolean = { fg = palette.olive },
@@ -213,7 +214,7 @@ M.setup = function()
     htmlTagName = { fg = palette.green },
     htmlUnderline = { underline = true },
     htmlUnderlineItalic = { underline = true },
-    lCursor = { fg = "bg", bg = "fg" },
+    lCursor = { fg = palette.bg, bg = palette.fg },
     lessVariable = { fg = palette.orange },
     markdownBold = { bold = true },
     markdownItalic = { underline = true },
